@@ -1,0 +1,32 @@
+{
+    "kategorie": [
+        {
+            "id": "verbs",
+            "nazwa": "Czasowniki",
+            "slowa": {
+                "run": "biegać",
+                "jump": "skakać",
+                "sleep": "spać",
+                "open": "otwierać",
+                "think": "myśleć",
+                "kill": "zabijać",
+                "talk": "rozmawiać",
+                "close": "zamykać"
+            }
+        },
+        {
+            "id": "nouns",
+            "nazwa": "Rzeczowniki",
+            "slowa": {
+                "flower": "kwiat",
+                "desk": "biurko",
+                "page": "strona",
+                "angle": "kąt",
+                "voice": "głos",
+                "question": "pytanie",
+                "answer": "odpowiedź",
+                "clock": "zegar"
+            }
+        }
+    ]
+}
