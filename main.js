@@ -58,7 +58,7 @@ let przygotujKategorie = () => {
         return;
     }
 
-    let kategoria = kategorie.filter(k => k.id === idKategorii)[0]; // znajdujemy kategorię po identyfikatorze
+    let kategoria = kategorie.find(k => k.id === idKategorii); // znajdujemy kategorię po identyfikatorze
     if (kategoria === undefined) { // nieistniejąca kategoria
         wyswietlKategorie();
         return;
